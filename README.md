@@ -1,4 +1,4 @@
-# Browser plugin for DNS Lookup
+# Browser plugin for DNS Lookups
 
 
 _Initial published version 24.02_

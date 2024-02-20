@@ -14,19 +14,20 @@ For a given domain and DKIM selector (optional) the tool generates an output dis
 
 1. ### Create a folder on your local system then download the below mentioned files / folder to the new created folder:
 
-- ***manifest.json***  > The manifest file that describes your extension to the browser.
+- ***manifest.json***  
+> The manifest file that describes your extension to the browser.
 
 - ***popup.html***  
-The HTML file for the extension's popup UI, where users input the domain and optional DKIM selector, enable/disable IPv6 queries and copy the generated output.
+> The HTML file for the extension's popup UI, where users input the domain and optional DKIM selector, enable/disable IPv6 queries and copy the generated output.
 
 - ***popup.js***  
-The JavaScript file linked from popup.html that handles user input, performs DNS lookups using Cloudflare's DNS over HTTPS API, and displays the results in the popup. The brain of the extension.
+> The JavaScript file linked from popup.html that handles user input, performs DNS lookups using Cloudflare's DNS over HTTPS API, and displays the results in the popup. The brain of the extension.
 
 - ***popup.css***  
-The CSS file linked from popup.html for styling.
+> The CSS file linked from popup.html for styling.
 
 - ***images folder***  
-The images folder contain 3 .png files (change them if you like) 16x16, 48x48 and 128x128 for the extension icons.
+> The images folder contain 3 .png files (change them if you like) 16x16, 48x48 and 128x128 for the extension icons.
 
 2. ### Load Extension to the Browser  
 Chrome/Edge: Go to ***chrome://extensions/*** (or ***edge://extensions/*** for Edge), enable ***"Developer mode"***, and click ***"Load unpacked"***. Select the folder containing your extension's files.  

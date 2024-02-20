@@ -1,0 +1,43 @@
+<!-- 
+    Author: Tom W. Sch
+    Created: 20.02.24
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Extension</title>
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <!-- Container for the entire DNS Lookup form -->
+    <div class="container">
+        <!-- Title of the DNS Lookup Extension -->
+        <h1 class="title">DNS Lookup</h1>
+        <!-- Form group for entering the domain name -->
+        <div class="form-group">
+            <label for="domain">Domain Name:</label>
+            <input type="text" id="domain" placeholder="Enter domain name">
+        </div>
+        <!-- Form group for entering an optional DKIM selector -->
+        <div class="form-group">
+            <label for="selector">DKIM Selector (optional):</label>
+            <input type="text" id="selector" placeholder="Enter DKIM selector">
+        </div>
+        <!-- Checkbox to include IPv6 (AAAA) queries -->
+        <div class="form-group">
+            <label>
+                <input type="checkbox" id="toggleIPv6" unchecked>
+                Include IPv6 (AAAA) Queries
+            </label>
+        </div>
+        <!-- Button to initiate the DNS record lookup -->
+        <button id="lookup">Lookup DNS Records</button>
+    </div>
+    <!-- Link to external JavaScript file containing the logic -->
+    <script src="popup.js"></script>
+</body>
+</html>

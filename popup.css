@@ -1,0 +1,114 @@
+/*
+    Author: Tom W. Sch
+    Created: 20.02.24
+*/
+:root {
+    --popup-bg-color: #2c3e50; /* Darker background color for modern look */
+    --text-color: #ecf0f1; /* Light text color for contrast */
+    --button-bg-color: #3498db; /* Button background color */
+    --button-text-color: #ffffff; /* Button text color */
+    --border-radius: 12px; /* Border radius for rounded corners */
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    --result-a-color: #e74c3c; /* Color for A records */
+    --result-txt-color: #f1c40f; /* Color for TXT records */
+    --result-mx-color: #2ecc71; /* Color for MX records */
+    --result-generic-color: #3498db; /* Generic color for other records */
+    --font-size: 18px; /* Increased font size for better readability */
+    --result-text-color: #90ee90; /* New color for result text */
+    --disabled-button-bg-color: #cccccc; /* Disabled button background color */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--popup-bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    min-width: 400px; /* Increased width for a wider layout */
+    max-width: 800px; /* Adjusted max width for flexibility */
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+}
+
+.container {
+    width: 100%; /* Ensure container uses full width of the body */
+    padding: 0px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.title {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    text-align: center; /* Center title text */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-group label {
+    display: block; /* Ensure labels are block level for proper alignment */
+    color: var(--text-color);
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.form-group input[type="text"], button {
+    width: 100%; /* Full width inputs and buttons */
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid #7f8c8d; /* Subtle border for inputs */
+    background-color: #34495e; /* Darker elements for contrast */
+    color: var(--text-color);
+    box-sizing: border-box; /* Include padding and border in element's width */
+    font-size: var(--font-size); /* Larger font size for inputs */
+}
+
+button {
+    background-color: var(--button-bg-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #2e81bd; /* Slightly darker shade on hover */
+}
+
+button#copyResults:disabled {
+    background-color: #cccccc; /* Greyed out look for disabled state */
+    color: #666; /* Optional: Change text color for disabled state */
+    cursor: not-allowed;
+}
+
+button#copyResults:not(:disabled) {
+    background-color: var(--button-bg-color); /* Revert to original color when active */
+    color: var(--button-text-color);
+    cursor: pointer;
+}
+
+.results {
+    width: 100%; /* Ensures the container takes full width */
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    background-color: #34495e; /* Adjust if you want a different background color */
+    box-shadow: var(--box-shadow);
+    color: var(--result-text-color); /* Use the new result text color */
+}
+
+.result-item {
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: var(--font-size);
+    color: var(--result-text-color); /* Green for results */
+}
+
+.result-item .query {
+    display: block; /* Ensure the query is on its own line */
+    color: #b2bec3; /* Light grey for the query */
+}
+
+.result-item .result {
+    display: block; /* Ensure the result is on its own line */
+    color: var(--result-text-color); /* Keep the result in green */
+}

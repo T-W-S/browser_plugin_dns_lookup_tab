@@ -3,6 +3,9 @@
 
 _Initial published version 24.02_
 
+***NOTE*** Currently there is an issue when using it on chrome based browsers, the results are not displayed as expected. Please run the plugin in ***incognito mode***.
+There are no issues in Firefox.
+
 ## Description
 
 For a given domain and DKIM selector (optional) the tool generates an output displaying the results of various DNS queries, including A, AAAA, MX, NS, DKIM, SPF, DMARC, and CNAME records. By default, IPv6 queries are disabled. The results are neatly presented in a new tab for easy reference.

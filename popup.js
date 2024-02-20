@@ -1,5 +1,5 @@
 /*
-    Author: Tom W. Sch
+    Author: T. W. Sch
     Created: 20.02.24
 */
 

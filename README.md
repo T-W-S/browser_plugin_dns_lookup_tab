@@ -3,8 +3,8 @@
 
 _Initial published version 24.02_
 
-***NOTE*** Currently there is an issue when using it on chrome based browsers, the results are not displayed as expected. Please run the plugin in ***incognito mode***.
-There are no issues in Firefox.
+***NOTE*** Currently there is an issue with chrome based browsers, the results are not displayed as expected. Please run the plugin in ***incognito mode***.
+All good for Firefox.
 
 ## Description
 

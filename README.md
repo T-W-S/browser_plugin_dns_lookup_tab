@@ -38,4 +38,3 @@ Firefox: Go to ***about:debugging***, click ***"This Firefox"***, and click ***"
 
 ![initial_popup](assets/initial_popup.png)
 ![result1](assets/result1.png)
-![result2](assets/result2.png)

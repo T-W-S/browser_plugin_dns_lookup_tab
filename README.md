@@ -15,7 +15,7 @@ For a given domain and DKIM selector (optional) the tool generates an output dis
 1. ### Create a folder on your local system then download the below mentioned files / folder to the new created folder:
 
 - ***manifest.json***  
-The manifest file that describes your extension to the browser.
+> The manifest file that describes your extension to the browser.
 
 - ***popup.html***  
 The HTML file for the extension's popup UI, where users input the domain and optional DKIM selector, enable/disable IPv6 queries and copy the generated output.

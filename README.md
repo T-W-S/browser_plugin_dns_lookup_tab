@@ -5,7 +5,7 @@ _Initial published version 24.02_
 
 ## Description
 
-For a given domain and DKIM selector (optional) a output is generated of the results for the following DNS queries: A, AAA, MX, NS, DKIM, SPF, DMARC, CNAME. IPv6 queries are disabled by default. The output of the results can be copied (***Copy Results***) by a single click to the clipboard.
+For a given domain and DKIM selector (optional) a output is generated of the results for the following DNS queries: A, AAA, MX, NS, DKIM, SPF, DMARC, CNAME. IPv6 queries are disabled by default. The output is printed to a new tab.
 
 ## How2
 

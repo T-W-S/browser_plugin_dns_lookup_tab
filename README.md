@@ -12,7 +12,7 @@ For a given domain and DKIM selector (optional) the tool generates an output dis
 
 ## Getting Started
 
-1. ### Create a folder on your local system then download the below mentioned files / folder to the new created folder:
+1. ### Create a folder on your local system then download the below mentioned files and folder to the new created folder:
 
 - ***manifest.json***  
 > The manifest file that describes your extension to the browser.
@@ -30,7 +30,7 @@ For a given domain and DKIM selector (optional) the tool generates an output dis
 > The images folder contain 3 .png files (change them if you like) 16x16, 48x48 and 128x128 for the extension icons.
 
 2. ### Load Extension to the Browser  
-Chrome/Edge: Go to ***chrome://extensions/*** (or ***edge://extensions/*** for Edge), enable ***"Developer mode"***, and click ***"Load unpacked"***. Select the folder containing your extension's files.  
+Chrome/Edge: Go to ***chrome://extensions/*** (or ***edge://extensions/*** for Edge), enable ***"Developer mode"***, and click ***"Load unpacked"***. Select the folder containing your extension files.  
   
 Firefox: Go to ***about:debugging***, click ***"This Firefox"***, and click ***"Load Temporary Add-on"***. Select the manifest file of your extension.
 

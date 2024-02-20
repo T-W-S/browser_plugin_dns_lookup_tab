@@ -37,7 +37,7 @@ Firefox: Go to ***about:debugging***, click ***"This Firefox"***, and click ***"
 
 
 ## Screen dumps
-
-
+### Initial popup
 ![initial_popup](assets/initial_popup.png)
+### Results
 ![result1](assets/result1.png)

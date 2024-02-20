@@ -4,7 +4,7 @@
 _Initial published version 24.02_
 
 ***NOTE*** Currently there is an issue with chrome based browsers, the results are not displayed as expected. Please run the plugin in ***incognito mode***.
-No issues with Firefox (:. 
+No issues with Firefox. 
 
 ## Description
 

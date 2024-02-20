@@ -10,9 +10,9 @@ No issues with Firefox.
 
 For a given domain and DKIM selector (optional) the tool generates an output displaying the results of various DNS queries, including A, AAAA, MX, NS, DKIM, SPF, DMARC, and CNAME records. By default, IPv6 queries are disabled. The results are neatly presented in a new tab for easy reference.
 
-## How2
+## Getting Started
 
-### Create a folder on your local system then download the below mentioned files / folder to the new created folder:
+1. ### Create a folder on your local system then download the below mentioned files / folder to the new created folder:
 
 - ***manifest.json***  
 The manifest file that describes your extension to the browser.
@@ -29,7 +29,7 @@ The CSS file linked from popup.html for styling.
 - ***images folder***  
 The images folder contain 3 .png files (change them if you like) 16x16, 48x48 and 128x128 for the extension icons.
 
-### Load Extension to the Browser  
+2. ### Load Extension to the Browser  
 Chrome/Edge: Go to ***chrome://extensions/*** (or ***edge://extensions/*** for Edge), enable ***"Developer mode"***, and click ***"Load unpacked"***. Select the folder containing your extension's files.  
   
 Firefox: Go to ***about:debugging***, click ***"This Firefox"***, and click ***"Load Temporary Add-on"***. Select the manifest file of your extension.

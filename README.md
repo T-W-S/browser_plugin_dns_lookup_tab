@@ -12,7 +12,7 @@ For a given domain and DKIM selector (optional) the tool generates an output dis
 
 ## Getting Started
 
-1. ### Create a folder on your local system then download the below mentioned files and folder to the new created folder:
+1. ### Create a folder on your local system then download the below mentioned files & folder to the new created folder:
 
 - ***manifest.json***  
 > The manifest file that describes your extension to the browser.

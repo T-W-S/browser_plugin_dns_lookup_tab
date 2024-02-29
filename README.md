@@ -3,7 +3,7 @@
 
 _Initial published version 24.02_
 
-***NOTE:*** Currently there is an issue with chrome based browsers, the results are not displayed as expected. Please run the plugin in ***incognito mode***.
+***NOTE:*** Currently there are limitations with chrome based browsers, the results are not displayed as expected, please run the plugin in ***incognito mode***.
 No issues with Firefox, however you need to re-upload it after closing Firefox as it's only uploaded as a temporary extension. 
 
 ## Description
